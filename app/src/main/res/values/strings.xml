@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Advising App</string>
+    <string name="myTextView">In order to declare a minor, students should consult their advisor, fill out a minor declaration form and submit it to the department chair. A minor typically requires 16 to 20 credits of course work, with some minors further requiring students to earn a given number of credits through directed research or project-based learning. Minor declaration form can be found here:   <a href="https://www.wit.edu/sites/default/files/CAS/minor.pdf?Subject=Minor%20Declaration%20Form" target="_top">https://www.wit.edu/sites/default/files/CAS/minor.pdf</a></string>
+    <string name="myTextView2"> Students should contact the department offering the class for assistance.</string>
+
+    <string name="select_major">Select Major:</string>
+    <string-array name="major_names">
+
+        <item>Computer Science</item>
+        <item>Computer Networking</item>
+        <item>Computer Engineering</item>
+        <item>Computer Information Systems</item>
+    </string-array>
+    string-array>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jamiepham.advisingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserAreaActivity" />
+        <activity android:name=".CSTrackingSheet20122013" />
+        <activity android:name=".CSTrackingSheet20132014" />
+        <activity android:name=".CSTrackingSheet20142015" />
+        <activity android:name=".CSTrackingSheet20152016" />
+        <activity android:name=".CSTrackingSheet20162017" />
+        <activity android:name=".CISTrackingSheet20132014" />
+        <activity android:name=".CISTrackingSheet20142015" />
+        <activity android:name=".CISTrackingSheet20152016" />
+        <activity android:name=".CISTrackingSheet20162017" />
+        <activity android:name=".CETrackingSheet20122013" />
+        <activity android:name=".CETrackingSheet20132014" />
+        <activity android:name=".CETrackingSheet20142015" />
+        <activity android:name=".CETrackingSheet20152016" />
+        <activity android:name=".CETrackingSheet20162017" />
+        <activity android:name=".CNTrackingSheet20122013" />
+        <activity android:name=".CNTrackingSheet20132014" />
+        <activity android:name=".CNTrackingSheet20142015" />
+        <activity android:name=".CNTrackingSheet20152016" />
+        <activity android:name=".CNTrackingSheet20162017" />
+        <activity android:name=".FinancialAidAdvisor" />
+        <activity android:name=".UserAreaActivity2" />
+        <activity android:name=".CSDepartmentActivity2" />
+        <activity android:name=".MathDepartmentActivity" />
+        <activity android:name=".MathDepartmentActivity2" />
+        <activity android:name=".CSAdvisor" />
+        <activity android:name=".CEAdvisor" />
+        <activity android:name=".CoopAdvisors" />
+        <activity android:name=".CNAdvisor" />
+        <activity android:name=".CISAdvisor" />
+        <activity android:name=".CSDepartmentActivity" />
+        <activity android:name=".HUSDepartmentActivity" />
+        <activity android:name=".HUSDepartmentActivity2" />
+        <activity android:name=".HUSDepartmentActivity3" />
+        <activity android:name=".DegreeAuditActivity" />
+        <activity android:name=".CommonQuestionActivity" />
+        <activity android:name=".Departments" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".CETrackingSheets" />
+        <activity android:name=".CISTrackingSheets" />
+        <activity android:name=".CNTrackingSheets" />
+        <activity android:name=".CSTrackingSheets" />
+        <activity android:name=".TrackingSheets" />
+        <activity android:name=".RegisterRequest"></activity>
+    </application>
+
+</manifest>
